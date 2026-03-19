@@ -4,7 +4,6 @@ const productController = require("../controllers/productController");
 const validateRequest = require("../middlewares/validateHandler");
 const {
   productValidationRules,
-  patchProductRules,
   productQueryRules,
   productIdRule,
   createProductRules,
