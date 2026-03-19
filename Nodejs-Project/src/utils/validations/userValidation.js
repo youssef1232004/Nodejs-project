@@ -22,7 +22,7 @@ const addressValidationRules = [
     .not()
     .isNumeric()
     .withMessage("street must be text"),
-  ,
+  
 ];
 
 const userValidationRules = [
